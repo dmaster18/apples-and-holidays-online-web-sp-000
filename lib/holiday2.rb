@@ -61,7 +61,7 @@ Summer:
 Fall:
   Thanksgiving: Turkey
 Spring:
-  Memorial Day: BBQ"
+  Memorial Day: BBQ\n"
   puts output.chomp
 end
 
