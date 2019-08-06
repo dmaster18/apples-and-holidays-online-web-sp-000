@@ -57,7 +57,7 @@ def all_supplies_in_holidays(holiday_hash)
       Christmas: Lights, Wreath \n
       New Years: Party Hats \n
    Summer: 
-      Fourth Of July: Fireworks, BBQ \n
+      Fourth Of July: Fireworks, BBQ 
    Fall: 
       Thanksgiving: Turkey 
    Spring: 
