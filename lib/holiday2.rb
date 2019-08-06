@@ -60,7 +60,7 @@ Summer:
 Fall:
   Thanksgiving: Turkey
 Spring:
-  Memorial Day: BBQ
+  Memorial Day: BBQ"
 end
 
 all_supplies_in_holidays(holiday_hash)
