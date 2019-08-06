@@ -63,8 +63,8 @@ def all_supplies_in_holidays(holiday_hash)
       end
       holiday_string = holiday_proper_final.join(" ")
       if holiday == season_details.values.last
-        print "  " + holiday_string + ": "
-        print "  " +  + ": " + "\n"
+        print "  " + holiday_string + ": ""\n"
+        print "  " +  + ": " + 
       else 
         print "  " + holiday.to_s.gsub("_", " ").capitalize + ": "
       end
