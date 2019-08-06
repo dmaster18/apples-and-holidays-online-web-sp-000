@@ -64,7 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
             Spring:
               Memorial Day: BBQ"
   end
-  output
+  return output
 end
 
 puts all_supplies_in_holidays(holiday_hash)
