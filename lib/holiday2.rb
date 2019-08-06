@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
   output
 end
 
-all_supplies_in_holidays(holiday_hash)
+puts all_supplies_in_holidays(holiday_hash)
 
 def all_holidays_with_bbq(holiday_hash)
   holiday_name_array = []
