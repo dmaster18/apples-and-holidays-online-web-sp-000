@@ -60,7 +60,7 @@ New Years: Party Hats
 Fourth Of July: Fireworks, BBQ 
    Fall: 
 Thanksgiving: Turkey 
-Spring: 
+   Spring: 
 Memorial Day: BBQ" 
   puts output.chomp
 end
