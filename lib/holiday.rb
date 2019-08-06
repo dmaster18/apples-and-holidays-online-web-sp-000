@@ -62,7 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
           word.to_s.capitalize
           holiday_proper_final << word
         end
-        
+        holiday_proper_final.join
         
         print "  " +  + ": " + "\n"
       else 
