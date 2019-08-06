@@ -61,8 +61,7 @@ def all_supplies_in_holidays(holiday_hash)
               Thanksgiving: Turkey
             Spring:
               Memorial Day: BBQ"
-  end
-  return output
+  puts output
 end
 
 all_supplies_in_holidays(holiday_hash)
