@@ -62,7 +62,7 @@ Fall:
   Thanksgiving: Turkey
 Spring:
   Memorial Day: BBQ\n"
-  puts output.chomp
+  output
 end
 
 all_supplies_in_holidays(holiday_hash)
