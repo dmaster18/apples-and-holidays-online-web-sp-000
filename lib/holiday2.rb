@@ -57,10 +57,10 @@ def all_supplies_in_holidays(holiday_hash)
               New Years: Party Hats
             Summer:
               Fourth Of July: Fireworks, BBQ
-Fall:
-  Thanksgiving: Turkey
-Spring:
-  Memorial Day: BBQ"
+            Fall:
+              Thanksgiving: Turkey
+            Spring:
+              Memorial Day: BBQ"
 end
 
 all_supplies_in_holidays(holiday_hash)
