@@ -57,6 +57,7 @@ def all_supplies_in_holidays(holiday_hash)
     season_details.each do |holiday, supplies|
       if holiday == season_details.values.last
         holiday_proper = holiday.to_s.gsub("_", " ").split(" ")
+        
         holiday_proper.each do |word|
           word.to_s.capitalize
         print "  " +  + ": " + "\n"
