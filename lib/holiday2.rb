@@ -52,8 +52,6 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
-  output = ""
-  if holiday_hash == true
   output = "Winter:
               Christmas: Lights, Wreath
               New Years: Party Hats
