@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
       if holiday == season_details.values.last
         print "  " + holiday_string + ": " + "\n"
       else 
-        print "  " + holiday_string + ": " + "\n"
+        print "  " + holiday_string + ": "
       end
       supplies.each do |supply|
          if supply == supplies.last
