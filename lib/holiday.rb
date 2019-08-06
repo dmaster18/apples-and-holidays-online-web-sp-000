@@ -55,11 +55,11 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, season_details|
     puts season.to_s.capitalize + ":"
     season_details.each do |holiday, supplies|
-       holiday_proper = holiday.to_s.gsub("_", " ").split(" ")
-        holiday_proper_final = []
-        holiday_proper.each do |word|
-          word.to_s.capitalize
-          holiday_proper_final << word
+      holiday_proper = holiday.to_s.gsub("_", " ").split(" ")
+      holiday_proper_final = []
+      holiday_proper.each do |word|
+        word.to_s.capitalize
+        holiday_proper_final << word
       if holiday == season_details.values.last
        
         end
