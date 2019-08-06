@@ -58,7 +58,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_proper = holiday.to_s.gsub("_", " ").split(" ")
       holiday_proper_final = []
       holiday_proper.each do |word|
-        word.capitalize
+        new_word word.capitalize
         holiday_proper_final << word
       end
       holiday_string = holiday_proper_final.join(" ")
