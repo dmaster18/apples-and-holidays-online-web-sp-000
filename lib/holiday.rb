@@ -59,7 +59,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_proper_final = []
       holiday_proper.each do |word|
         new_word = word.capitalize
-        holiday_proper_final << word
+        holiday_proper_final << new_word
       end
       holiday_string = holiday_proper_final.join(" ")
       if holiday == season_details.values.last
