@@ -52,12 +52,12 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
-  output = "Winter:
-              Christmas: Lights, Wreath
-              New Years: Party Hats
-            Summer:
-              Fourth Of July: Fireworks, BBQ
-            Fall:
+  output = "Winter: \n
+              Christmas: Lights, Wreath \n
+              New Years: Party Hats \n
+            Summer: \n
+              Fourth Of July: Fireworks, BBQ \n
+            Fall: \n
               Thanksgiving: Turkey
             Spring:
               Memorial Day: BBQ"
