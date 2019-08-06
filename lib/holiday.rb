@@ -61,7 +61,7 @@ def all_supplies_in_holidays(holiday_hash)
         word.to_s.capitalize
         holiday_proper_final << word
       end
-      holiday 
+      holiday_string = 
       if holiday == season_details.values.last
        
         end
