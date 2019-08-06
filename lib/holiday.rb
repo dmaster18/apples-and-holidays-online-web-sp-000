@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
         print "  " + holiday_string + ": " + "\n"
         print "  " +  + ": " + 
       else 
-        print "  " + holiday.to_s.gsub("_", " ").capitalize + ": "
+        print "  " + holiday_string + ": " + "\n"
       end
       supplies.each do |supply|
          if supply == supplies.last
