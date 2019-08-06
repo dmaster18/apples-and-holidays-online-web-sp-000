@@ -56,7 +56,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts season.to_s.capitalize + ":"
     season_details.each do |holiday, supplies|
       if holiday == season_details.values.last
-        holiday_proper = holiday.to_s.gsub("_", " ").split(" ").to_scapitalize.join(" ").to_s
+        holiday_proper = holiday.to_s.gsub("_", " ").split(" ").to_s.capitalize.join(" ").to_s
         print "  " +  + ": " + "\n"
       else 
         print "  " + holiday.to_s.gsub("_", " ").capitalize + ": "
