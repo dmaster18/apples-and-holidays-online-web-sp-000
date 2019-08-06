@@ -62,6 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
               Thanksgiving: Turkey
             Spring:
               Memorial Day: BBQ"
+  end
 end
 
 all_supplies_in_holidays(holiday_hash)
